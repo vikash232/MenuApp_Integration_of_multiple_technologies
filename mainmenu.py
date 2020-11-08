@@ -23,6 +23,8 @@ while True:
 		elif(choise == "4"):
 			print('hello')#LinuxandNetworking
 		elif(choise == "5"):
+			os.system('python3 hadoop_with_lvm.py')#lvm
+		elif(choise == "6"):
 			print("============")
 			print("Team Members")
 			print("============")
@@ -30,8 +32,6 @@ while True:
 					\n ->Monika Poddar
 					\n ->Parag Rahate
 					\n ->Pooja Maurya""")
-		elif(choise == "6"):
-			os.system('python3 hadoop_with_lvm.py')#lvm
 		elif(choise == "7"):
 			exit()			
 
