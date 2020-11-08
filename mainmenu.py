@@ -17,11 +17,11 @@ while True:
 		if(choise == "1"):
 			print('hello')#hadoop file
 		elif(choise == "2"):
-			print('hello')#AWS
+			os.system('python3 Autoaws.py')#AWS
 		elif(choise == "3"):
 			os.system('python3 docker.py')#Docker
 		elif(choise == "4"):
-			print('hello')#LinuxandNetworking
+			os.system('python3 Linux-networking.py')#LinuxandNetworking
 		elif(choise == "5"):
 			os.system('python3 hadoop_with_lvm.py')#lvm
 		elif(choise == "6"):
