@@ -14,7 +14,7 @@ while True:
 		print("\n Press the No. According to your Intrest!!")
 		choise = input("Enter your Choice: ")
 		if(choise == "1"):
-			print('hello')#hadoop file
+			os.system('python3 arth.py')#hadoop file
 		elif(choise == "2"):
 			print('hello')#AWS
 		elif(choise == "3"):
